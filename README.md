@@ -1,4 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Case Study Login Form
+
+## System Requirements
+- [Node 8.x LTS](https://nodejs.org/en/blog/release/v8.16.0/)
+
+## Development Setup
+- Clone this repository: `git clone git@github.com:umarofficial/case-study-login-form.git`
+- Change directory: cd `/case-study-login-form`
+- Install all dependencies: `npm i`
+- Start development server: `npm start`
+
 
 ## Available Scripts
 
