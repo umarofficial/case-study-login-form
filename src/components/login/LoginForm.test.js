@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import LoginForm from './LoginForm';
 
-it('renders App correctly', () => {
+it('renders login form correctly', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+  ReactDOM.render(<LoginForm />, div);
   ReactDOM.unmountComponentAtNode(div);
 });

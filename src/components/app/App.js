@@ -1,5 +1,7 @@
 import React from 'react';
+import LoginForm from '../login/LoginForm';
+import './style.css';
 
-const App = () => <div>Welcome..</div>;
+const App = () => <LoginForm />;
 
 export default App;
