@@ -6,7 +6,7 @@ Azowo case study Registration form
 
 ## Development Setup
 - Clone this repository: `git clone git@github.com:umarofficial/case-study-registration-form.git`
-- Change directory: `cd /case-study-iegistration-form`
+- Change directory: `cd /case-study-registration-formm`
 - Install all dependencies: `npm i`
 
 
