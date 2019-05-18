@@ -1,12 +1,12 @@
-## Case Study Login Form
-Azowo case study login form
+## Case Study Registration Form
+Azowo case study Registration form
 
 ## System Requirements
 - [Node 8.x LTS](https://nodejs.org/en/blog/release/v8.16.0/)
 
 ## Development Setup
-- Clone this repository: `git clone git@github.com:umarofficial/case-study-login-form.git`
-- Change directory: `cd /case-study-login-form`
+- Clone this repository: `git clone git@github.com:umarofficial/case-study-registration-form.git`
+- Change directory: `cd /case-study-iegistration-form`
 - Install all dependencies: `npm i`
 
 

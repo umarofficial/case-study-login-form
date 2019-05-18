@@ -1,7 +1,7 @@
 import React from 'react';
-import LoginForm from '../login/LoginForm';
+import RegistrationForm from '../registration/RegistrationForm';
 import './style.css';
 
-const App = () => <LoginForm />;
+const App = () => <RegistrationForm />;
 
 export default App;

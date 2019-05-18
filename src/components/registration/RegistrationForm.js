@@ -4,7 +4,7 @@ import tick from '../../assets/tick.png';
 import cancel from '../../assets/cancel.png';
 import './style.css';
 
-class LoginForm extends Component {
+class RegistrationForm extends Component {
   // Components State
   state = {};
 
@@ -23,7 +23,7 @@ class LoginForm extends Component {
   // Method to handle email and paasword inputs
   handleChange = ({ target: { name, value } }) => this.setState({ [name]: { value, touched: true } });
 
-  // Method to handle Login Form Submission
+  // Method to handle Registration Form Submission
   handleSubmit = event => {
     event.preventDefault();
     const { email, password } = this.state;
@@ -34,11 +34,11 @@ class LoginForm extends Component {
         }
       })
     } else {
-      // Login Creds Processing Logic Here..
+      // Registration Creds Processing Logic Here..
 
       // But for now, Lets do this!!
       const split = email.value.split('@');
-      alert(`Hello ${split[0]}, Welcome to AZOWO Case Study Login Form <3`);
+      alert(`Hello ${split[0]}, Welcome to AZOWO Case Study Registration Form <3`);
       this.loadInitialState(); // Reset State
     }
   }
@@ -54,7 +54,7 @@ class LoginForm extends Component {
       </p>
     ));
 
-  // Method to render Login Form
+  // Method to render Registration Form
   render() {
     const { email, password } = this.state;
     const strengths = getStrength(password.value);
@@ -64,7 +64,7 @@ class LoginForm extends Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <div className="container">
-          <h2 className="title">Login</h2>
+          <h2 className="title">Sign Up</h2>
 
           <div className="spaceTop">
             <label htmlFor="email">Email</label>
@@ -97,7 +97,7 @@ class LoginForm extends Component {
           ) : null}
   
           <button className="button spaceTop" type="submit" disabled={errEmail || errPassword}>
-            Login
+            Sign Up
           </button>
         </div>
       </form>
@@ -105,4 +105,4 @@ class LoginForm extends Component {
   }
 }
 
-export default LoginForm;
+export default RegistrationForm;

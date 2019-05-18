@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LoginForm from './LoginForm';
+import RegistrationForm from './RegistrationForm';
 import { getStrength, isEmail } from './utils';
 
-describe('Login Form Test Suit', () => {
+describe('Registration Form Test Suit', () => {
   it('should render login form properly', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<LoginForm />, div);
+    ReactDOM.render(<RegistrationForm />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 
-  describe('Login Form Utility Functions', () => {
+  describe('Registration Form Utility Functions', () => {
     describe('Password Strength', () => {
       const goodPassword = getStrength('passTEST#1');
       const weakPassword = getStrength('123');
